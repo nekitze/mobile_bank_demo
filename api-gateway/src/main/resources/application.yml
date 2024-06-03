@@ -1,0 +1,73 @@
+server:
+  port: 8765
+#  forward-headers-strategy: framework
+spring:
+#  mvc:
+#    pathmatch:
+#      matching-strategy: ant_path_matcher
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          lower-case-service-id: true
+          enabled: true
+      routes:
+        - id: openapi
+          uri: http://localhost:${server.port}
+          predicates:
+            - Path=/v3/api-docs/**
+          filters:
+            - RewritePath=/v3/api-docs/(?<path>.*), /$\{path}/v3/api-docs
+        - id: user_api
+          uri: lb://user-service
+          predicates:
+            - Path=/user-service/**
+          filters:
+            - RewritePath=/user-service/(?<path>.*), /$\{path}
+        - id: wallet_api
+          uri: lb://wallet-service
+          predicates:
+            - Path=/wallet-service/**
+          filters:
+            - RewritePath=/wallet-service/(?<path>.*), /$\{path}
+        - id: transfer_api
+          uri: lb://transfer-service
+          predicates:
+            - Path=/transfer-service/**
+          filters:
+            - RewritePath=/transfer-service/(?<path>.*), /$\{path}
+eureka:
+  client:
+    service-url:
+      defaultZone: http://discovery:8761/eureka
+
+springdoc:
+  enable-native-support: true
+  api-docs:
+    groups:
+      enabled: true
+  group-configs:
+    - group: user-service
+      paths-to-match:
+        - /user-service/**
+      display-name: User service
+    - group: wallet-service
+      paths-to-match:
+        - /wallet-service/**
+      display-name: Wallet service
+    - group: transfer-service
+      paths-to-match:
+        - /transfer-service/**
+      display-name: Transfer service
+  swagger-ui:
+    config-url: /v3/api-docs/swagger-config
+    url: /v3/api-docs
+    urls:
+      - url: /user-service/v3/api-docs
+        name: User service
+      - url: /wallet-service/v3/api-docs
+        name: Wallet service
+      - url: /transfer-service/v3/api-docs
+        name: Transfer service
