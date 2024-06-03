@@ -1,0 +1,7 @@
+{
+  "timestamp": "2024-06-01T22:56:33.047+00:00",
+  "path": "/api/v1/wallets/balance",
+  "status": 503,
+  "error": "Service Unavailable",
+  "requestId": "9634d5db-3"
+}

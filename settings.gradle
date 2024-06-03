@@ -1,0 +1,7 @@
+rootProject.name = 'mobile-bank-demo'
+
+includeBuild 'eureka-server'
+includeBuild 'api-gateway'
+includeBuild 'user-service'
+includeBuild 'wallet-service'
+includeBuild 'transfer-service'

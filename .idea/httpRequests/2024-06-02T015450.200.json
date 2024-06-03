@@ -1,0 +1,16 @@
+[
+  {
+    "id": "04bf096e-10c8-445c-ac27-0f4b02a170ee",
+    "senderWalletId": 1,
+    "recipientWalletId": 2,
+    "amount": 300,
+    "createdAt": "2024-06-02T01:19:31.076508"
+  },
+  {
+    "id": "6090c2b6-bf31-46b3-a5e4-c87ff601048b",
+    "senderWalletId": 2,
+    "recipientWalletId": 1,
+    "amount": 300,
+    "createdAt": "2024-06-02T01:54:44.631133"
+  }
+]

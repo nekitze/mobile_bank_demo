@@ -1,0 +1,7 @@
+{
+  "timestamp": "2024-06-01T22:56:08.558+00:00",
+  "path": "/api/v1/wallets/balance",
+  "status": 500,
+  "error": "Internal Server Error",
+  "requestId": "706eb9e2-8"
+}

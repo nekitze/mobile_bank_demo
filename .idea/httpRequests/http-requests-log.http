@@ -1,0 +1,477 @@
+POST http://localhost:8081/api/v1/auth/signIn
+Content-Type: application/json
+Content-Length: 59
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Cookie: JSESSIONID=0FD3AC704788D2EA37FCE5D929523D44
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+"email": "nikita.zubov@outlook.com",
+"password": "1234"
+}
+
+###
+
+POST http://localhost:8081/api/v1/auth/signUp
+Content-Type: application/json
+Content-Length: 111
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Cookie: JSESSIONID=0FD3AC704788D2EA37FCE5D929523D44
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstname": "Nikita",
+  "lastname": "Zubov",
+  "email": "nikita.zubov@outlook.com",
+  "password": "1234"
+}
+
+<> 2024-06-02T130714.401.txt
+
+###
+
+POST http://localhost:8081/api/v1/auth/signUp
+Content-Type: application/json
+Content-Length: 111
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "firstname": "Nikita",
+  "lastname": "Zubov",
+  "email": "nikita.zubov@outlook.com",
+  "password": "1234"
+}
+
+###
+
+GET http://localhost:8765/api/v1/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T015658.200.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T015653.503.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T015651.503.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T015650.503.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T015648.503.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T015647.503.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T015646.503.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T015645.503.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T015644.503.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T015643.503.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T015642.503.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T015640.503.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T015635.503.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T015633.503.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T015631.503.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T015630.503.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T015608.500.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T015522.404.json
+
+###
+
+GET http://localhost:8765/api/v1/transactions/history?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T015450.200.json
+
+###
+
+POST http://localhost:8765/api/v1/transactions?senderWalletId=2&recipientWalletId=1&amount=300
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:8765/api/v1/transactions/?senderWalletId=2&recipientWalletId=1&amount=300
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T015416.404.json
+
+###
+
+POST http://localhost:8765/transactions/?senderWalletId=2&recipientWalletId=1&amount=300
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T015405.404.json
+
+###
+
+POST http://localhost:8765/transactions/?senderWalletId=2&recipientWalletId=1&amount=300
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T015331.404.json
+
+###
+
+POST http://localhost:8765/api/v1/transactions/?senderWalletId=2&recipientWalletId=1&amount=300
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T015321.404.json
+
+###
+
+POST http://localhost:8765/api/v1/transactions/?senderWalletId=2&recipientWalletId=1&amount=300
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T015204.500.json
+
+###
+
+GET http://localhost:55841/api/v1/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T014921.404.json
+
+###
+
+GET http://localhost:55841/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T014908.200.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T014901.404.json
+
+###
+
+GET http://localhost:8765/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T014811.404.json
+
+###
+
+GET http://localhost:8765/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T014810.404.json
+
+###
+
+GET http://localhost:8765/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T014803.404.json
+
+###
+
+GET http://localhost:8765/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T014756.404.json
+
+###
+
+GET http://localhost:55841/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T014713.200.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T014553.404.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T014527.404.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/balance?walletId=2
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T014424.404.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T014407.404.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T014037.500.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/Balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T014024.500.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/Balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T014023.503.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/Balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T014022.503.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/Balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T014021.503.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/Balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T014019.503.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/Balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T014018.503.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/Balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T014017.503.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/Balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T014011.503.json
+
+###
+
+GET http://localhost:8765/api/v1/wallets/Balance?walletId=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8.1)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-02T014009.503.json
+
+###
+
