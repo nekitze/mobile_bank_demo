@@ -19,7 +19,7 @@ public class WalletServiceImpl implements WalletService {
         Wallet wallet = new Wallet();
         wallet.setName(name);
         wallet.setUserId(userId);
-        wallet.setBalance(0L);
+        wallet.setBalance(1000L); // Bonus
 
         return walletRepository.save(wallet);
     }
